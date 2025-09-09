@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1", "", "Arquitectura de Proyecto", "EARoot/EA1/EA1.htm", "31.png", "", "", "{111E1FD0-6D43-4f22-99C5-50E820751F9D}", "Package");
+tocTab[tocTab.length] = new Array("0.2", "1", "Diagramas_Secuencia", "EARoot/EA2/EA2.htm", "31.png", "", "", "{A9534529-CFB0-4408-B09E-E7F793515FD0}", "Package");
+tocTab[tocTab.length] = new Array("0.3", "1", "Requerimientos_Sistema", "EARoot/EA3/EA29.htm", "31.png", "", "", "{A515A891-F7F2-4aa5-A6D2-46B287E0BA13}", "Package");
+tocTab[tocTab.length] = new Array("0.4", "1", "Wireframes", "EARoot/EA4/EA94.htm", "31.png", "", "", "{F76A8FFC-549B-4887-91E3-2DD7E9E23D0D}", "Package");
