@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.4.1.1", "1", "WF-001 IniciarSesion", "EARoot/EA4/EA1/EA1/EA115.htm", "4.png", "", "", "{23ADBFFE-E000-42e5-AD28-2BFC99FCFC9A}", "Package");
-tocTab[tocTab.length] = new Array("0.4.1.2", "1", "WF-002 Registrarse", "EARoot/EA4/EA1/EA2/EA130.htm", "4.png", "", "", "{19736CDC-08E2-4475-8C5B-797E5085CE5A}", "Package");
+tocTab[tocTab.length] = new Array("0.6.1.1", "1", "WF-001 IniciarSesion", "EARoot/EA6/EA1/EA1/EA162.htm", "4.png", "", "", "{23ADBFFE-E000-42e5-AD28-2BFC99FCFC9A}", "Package");
+tocTab[tocTab.length] = new Array("0.6.1.2", "1", "WF-002 Registrarse", "EARoot/EA6/EA1/EA2/EA177.htm", "4.png", "", "", "{19736CDC-08E2-4475-8C5B-797E5085CE5A}", "Package");
