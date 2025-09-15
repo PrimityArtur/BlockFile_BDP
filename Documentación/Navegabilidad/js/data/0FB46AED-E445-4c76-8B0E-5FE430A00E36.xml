@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.3.2.2:1", "", "DS-003 GestionProductos", "EARoot/EA3/EA2/EA2/EA38.htm", "185.png", "52", "0", "", "Sequence diagram0","{3487A817-425B-4c3c-B555-3BA4DEB34F8B}");
+tocTab[tocTab.length] = new Array("0.3.2.2:2", "", "", "EARoot/EA3/EA2/EA2/EA41.htm", "101.png", "E882", "0", "", "InteractionFragment0","{78EBC50D-D336-44fb-9E9D-28AE0FE93A5B}");
+tocTab[tocTab.length] = new Array("0.3.2.2:3", "", "Agregar", "EARoot/EA3/EA2/EA2/EA42.htm", "101.png", "E880", "0", "", "InteractionFragment0","{FF14D66C-3F2F-4556-8041-1BDC052F5CD5}");
+tocTab[tocTab.length] = new Array("0.3.2.2:4", "", "buscador", "EARoot/EA3/EA2/EA2/EA43.htm", "101.png", "E878", "0", "", "InteractionFragment0","{E9F1CAB4-0900-4dd1-8203-12BE8819303E}");
+tocTab[tocTab.length] = new Array("0.3.2.2:5", "", "Editar", "EARoot/EA3/EA2/EA2/EA44.htm", "101.png", "E881", "0", "", "InteractionFragment0","{14637A9B-25CB-4188-9DBA-E6124F9E888C}");
+tocTab[tocTab.length] = new Array("0.3.2.2:6", "", "GestionProductos", "EARoot/EA3/EA2/EA2/EA45.htm", "101.png", "E876", "0", "", "InteractionFragment0","{CE5AA8E3-E4C9-49ef-852F-48D9352160D4}");

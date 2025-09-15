@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.3.3.3:1", "", "DS-008 Rankings", "EARoot/EA3/EA3/EA3/EA80.htm", "185.png", "57", "0", "", "Sequence diagram0","{B593A193-2C0B-4cd9-8B9B-2FCD1962B1C5}");
+tocTab[tocTab.length] = new Array("0.3.3.3:2", "", "", "EARoot/EA3/EA3/EA3/EA83.htm", "101.png", "E922", "0", "", "InteractionFragment0","{220CF211-A522-40d7-9589-CD178A840BE8}");
+tocTab[tocTab.length] = new Array("0.3.3.3:3", "", "", "EARoot/EA3/EA3/EA3/EA84.htm", "101.png", "E923", "0", "", "InteractionFragment0","{D5F1C9B2-8FD5-4276-840A-CF62991EF029}");
+tocTab[tocTab.length] = new Array("0.3.3.3:4", "", "", "EARoot/EA3/EA3/EA3/EA85.htm", "101.png", "E924", "0", "", "InteractionFragment0","{C7EF61DB-A593-4871-815E-C43442C054D1}");
+tocTab[tocTab.length] = new Array("0.3.3.3:5", "", "Rankings", "EARoot/EA3/EA3/EA3/EA86.htm", "101.png", "E921", "0", "", "InteractionFragment0","{DE00DA6B-99C9-48e2-9F33-9F021C63BDF4}");

@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.3.2.1:1", "", "DS-002 PerfilAdministrador", "EARoot/EA3/EA2/EA1/EA32.htm", "185.png", "51", "0", "", "Sequence diagram0","{3010FED3-82F5-4c69-9AC1-CB58112BA301}");
+tocTab[tocTab.length] = new Array("0.3.2.1:2", "", "", "EARoot/EA3/EA2/EA1/EA35.htm", "101.png", "E871", "0", "", "InteractionFragment0","{7779886B-FF25-4c8b-87A5-390E408CFE63}");
+tocTab[tocTab.length] = new Array("0.3.2.1:3", "", "", "EARoot/EA3/EA2/EA1/EA36.htm", "101.png", "E873", "0", "", "InteractionFragment0","{18D7DAC0-1BD5-4ad9-AE16-B18CF400DAC7}");
+tocTab[tocTab.length] = new Array("0.3.2.1:4", "", "Perfil", "EARoot/EA3/EA2/EA1/EA37.htm", "101.png", "E870", "0", "", "InteractionFragment0","{2525F920-A1DA-46eb-9F77-8C78D88932EC}");
