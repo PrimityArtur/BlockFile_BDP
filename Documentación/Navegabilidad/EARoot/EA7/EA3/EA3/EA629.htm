@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>WF-009 Rankings</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+		
+		document.addEventListener('DOMContentLoaded', () => {
+			const img = document.querySelector('.diagram_image img');
+			const mapAreas = document.querySelectorAll('area');
+
+			if (img && mapAreas.length > 0) {
+				//Get original and rendered image dimensions
+				const originalWidth = img.naturalWidth;
+				const originalHeight = img.naturalHeight;
+				const renderedWidth = img.clientWidth || originalWidth; 
+				const renderedHeight = img.clientHeight || originalHeight; 
+				
+				//Calculate scaling factors
+				const scaleX = renderedWidth / originalWidth;
+				const scaleY = renderedHeight / originalHeight;
+
+				//Adjust map area coordinates
+				mapAreas.forEach((area) => {
+				  const originalCoords = area.getAttribute('coords').split(',').map(Number);
+				  const scaledCoords = originalCoords.map((coord, index) =>
+					index % 2 === 0 ? coord * scaleX : coord * scaleY
+				  );
+				  area.setAttribute('coords', scaledCoords.join(','));
+				});
+			}
+		});
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> WF-009 Rankings </h1>
+			<!-- <img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../index.htm">Model</a> / <a href="../../EA266.htm">Wireframes</a> / <a href="../EA443.htm">Cliente</a> / <a href="EA631.htm">WF-009 Rankings</a> / <a href="EA629.htm">WF-009 Rankings</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../images/188.png" alt="Diagram"/> <a href="EA629.htm">WF-009 Rankings</a></li>
+<li><img src="../../../../images/11.png" alt="Screen"/> <a href="EA634.htm">Webpage1</a></li>
+<li><img src="../../../../images/16.png" alt="GUIElement"/> <a href="EA632.htm">ClientArea3</a></li>
+<li><img src="../../../../images/16.png" alt="GUIElement"/> <a href="EA633.htm">ClientArea3</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA630.png" usemap="#EA630" width="1369" height="657" border="0" />
+
+<MAP NAME="EA630">
+<area shape="rect" coords="141,1677,471,1815" href="../../../EA5/EA1/EA190.htm" target="_self">
+<area shape="rect" coords="141,1290,471,1545" href="../../../EA5/EA1/EA202.htm" target="_self">
+<area shape="rect" coords="141,849,471,1065" href="../../../EA5/EA1/EA202.htm" target="_self">
+<area shape="rect" coords="141,459,471,675" href="../../../EA5/EA1/EA202.htm" target="_self">
+<area shape="rect" coords="180,177,510,309" href="../../../EA5/EA1/EA202.htm" target="_self">
+<area shape="rect" coords="2607,1224,3954,1746" href="../EA4/EA662.htm" target="_self">
+<area shape="rect" coords="2976,1824,3552,1893" href="EA653.htm" target="_self">
+<area shape="rect" coords="2571,1116,3546,1194" href="EA654.htm" target="_self">
+<area shape="rect" coords="2523,1068,4077,1941" href="EA633.htm" target="_self">
+<area shape="rect" coords="3033,291,3495,810" href="EA652.htm" target="_self">
+<area shape="rect" coords="2976,891,3552,960" href="EA651.htm" target="_self">
+<area shape="rect" coords="2571,183,3546,261" href="EA650.htm" target="_self">
+<area shape="rect" coords="2523,135,4077,1008" href="EA632.htm" target="_self">
+<area shape="rect" coords="1029,882,2139,1401" href="../EA4/EA662.htm" target="_self">
+<area shape="rect" coords="1248,1482,1824,1551" href="EA647.htm" target="_self">
+<area shape="rect" coords="843,774,1818,852" href="EA648.htm" target="_self">
+<area shape="rect" coords="795,726,2349,1599" href="EA637.htm" target="_self">
+<area shape="rect" coords="843,432,1701,510" href="EA646.htm" target="_self">
+<area shape="rect" coords="1770,543,2274,600" href="EA644.htm" target="_self">
+<area shape="rect" coords="1332,543,1743,600" href="EA643.htm" target="_self">
+<area shape="rect" coords="843,540,1305,600" href="EA645.htm" target="_self">
+<area shape="rect" coords="792,384,2349,657" href="EA636.htm" target="_self">
+<area shape="rect" coords="1473,243,1743,303" href="EA629.htm" target="_self">
+<area shape="rect" coords="1149,243,1419,303" href="../EA1/EA448.htm" target="_self">
+<area shape="rect" coords="1752,243,2022,303" href="../EA2/EA534.htm" target="_self">
+<area shape="rect" coords="2031,243,2301,303" href="../../EA1/EA1/EA285.htm" target="_self">
+<area shape="rect" coords="843,225,1701,303" href="EA638.htm" target="_self">
+<area shape="rect" coords="795,177,2349,354" href="EA635.htm" target="_self">
+<area shape="rect" coords="747,30,2397,1698" href="EA634.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">WF-009 Rankings : Webpage Wireframe diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">06/09/2025 17:06:18</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">09/09/2025 2:06:19</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Usuario</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{21237AAC-5E81-4eec-9CC7-8E9D85E3329C}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

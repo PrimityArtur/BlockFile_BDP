@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>RF-015-1 Ranking productos más comprados</title>
+<title>RF-011 Filtrado de búsqueda para la gestión de Productos</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
 <script>
@@ -90,12 +90,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> RF-015-1 Ranking productos más comprados </h1>
+			<h1> RF-011 Filtrado de búsqueda para la gestión de Productos </h1>
 			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
 			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../index.htm">Model</a> / <a href="../EA163.htm">Requerimientos_Sistema</a> / <a href="EA184.htm">Requerimientos_Funcionales</a> / <a href="EA199.htm">RF-015 Sección para los rankings</a> / <a href="EA217.htm">RF-015-1 Ranking productos más comprados</a></p>
+			<p><a href="../../../index.htm">Model</a> / <a href="../EA185.htm">Requerimientos_Sistema</a> / <a href="EA206.htm">Requerimientos_Funcionales</a> / <a href="EA217.htm">RF-011 Filtrado de búsqueda para la gestión de Productos</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -110,20 +110,20 @@
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Project: </div>
 						<ul>
-<a href="EA199.htm">RF-015 Sección para los rankings</a></ul>
+<a href="EA206.htm">Requerimientos_Funcionales</a></ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">RF-015-1 Ranking productos más comprados  : Public  &lt;&lt;FunctionalRequirement&gt;&gt; FunctionalRequirement</span>
+	<span class="ObjectTitle">RF-011 Filtrado de búsqueda para la gestión de Productos  : Public  &lt;&lt;FunctionalRequirement&gt;&gt; FunctionalRequirement</span>
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">09/09/2025 0:37:24</td>
+			<td width="85%" class="ObjectDetailsValue">09/09/2025 0:30:30</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">09/09/2025 2:05:03</td>
+			<td class="ObjectDetailsValue">09/09/2025 1:58:19</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -168,55 +168,21 @@
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{37335002-2B19-47c5-8D26-74880201E4D2}</td>
+			<td class="ObjectDetailsValue">{3D07C08A-9FCE-4a18-B8A6-CC18B98ACBFC}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA6/EA3/EA3/EA591.htm">WF-009 Rankings</a>, <a href="EA180.htm">DRF-008 Rankings</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA7/EA2/EA2/EA339.htm">WF-004 GestionProductos</a>, <a href="EA198.htm">DRF-006 GestionProductos</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Se debe mostrar la informaci&#243;n de los productos mas comprados a lo largo del tiempo. Dicha informaci&#243;n debe ser presentada en orden de mayor a menor en una tabla con los siguientes headers:&lt;br/&gt;- &quot;Top&quot;: Muestra el orden del producto en el ranking. &lt;br/&gt;- &quot;Nombre&quot;: Nombre del producto.&lt;br/&gt;- &quot;Autor&quot;: Autor del producto.&lt;br/&gt;- &quot;Categor&#237;a&quot;. Categor&#237;a del producto.&lt;br/&gt;- &quot;Precio&quot;: Precio del producto.&lt;br/&gt;- &quot;Compras&quot;: N&#250;mero total de compras del producto.&lt;br/&gt;&lt;br/&gt;La cantidad de productos en la tabla debe ser un m&#225;ximo de 10 productos y para la navegabilidad de la informaci&#243;n debe ser hecha por un paginador de informaci&#243;n.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Mediante un bot&#243;n &quot;Buscar Por&quot; abre la Secci&#243;n para realizar el filtro de b&#250;squeda de los productos que contienen los siguientes campos de filtro:&lt;br/&gt;- &quot;Id&quot;: Id del producto.&lt;br/&gt;- &quot;Nombre&quot;: Nombre del producto.&lt;br/&gt;- &quot;Autor&quot;: Autor del producto.&lt;br/&gt;- &quot;Categor&#237;a&quot;: Categor&#237;a del producto.&lt;br/&gt;&lt;br/&gt;Con un bot&#243;n &quot;Filtrar&quot; que al ser presionado aplica los filtros donde el sistema debe validar las distintas combinaciones de los campos llenados y omitiendo los campos vac&#237;os trayendo la informaci&#243;n de los productos de la base de datos y siendo cargados en la interfaz del Usuario. &lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent != null ? parent.toggleItem('AssociationsTo') : toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
 			<li onClick="parent != null ? parent.toggleItem('TaggedVal') : toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent != null ? parent.toggleItem('CustomProperties') : toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent != null ? parent.toggleItem('Links') : toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
-		<div class="ItemBody" id="AssociationsToTable">
-			<table class="Table ea_table">
-				<tr>
-					<td width="40%" class="TableHeading">Element</td>
-					<td width="30%" class="TableHeading">Source Role</td>
-					<td width="30%" class="TableHeading">Target Role</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA199.htm">«FunctionalRequirement» RF-015 Sección para los rankings</a><br />
-						FunctionalRequirement &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
-					</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink582" /></button>Details:
-							<div id="detailsDIVLink582" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
-			</table>
-		</div>
 <div class="ItemBody" id="TaggedValTable">
 	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
 		<tr>
@@ -294,8 +260,8 @@
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../../EA6/EA3/EA3/EA599.htm">«WireframeClientArea» ClientArea3</a></td>
-					<td width="10%" class="TableRow" valign="top">ClientArea</td>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA7/EA2/EA2/EA354.htm">«WireframeButton» Buscar Por</a></td>
+					<td width="10%" class="TableRow" valign="top">Button</td>
 					<td width="10%" class="TableRow" valign="top">Abstraction</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
