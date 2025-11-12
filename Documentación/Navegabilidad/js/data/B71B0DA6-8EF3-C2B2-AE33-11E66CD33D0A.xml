@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.5.1.1.1", "1", "WFM-001 IniciarSesion", "EARoot/EA5/EA1/EA1/EA1/EA211.htm", "4.png", "", "", "{AD282BFC-99FC-FC9A-B234-901EAC1672E2}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1.1.2", "1", "WFM-002 Registrarse", "EARoot/EA5/EA1/EA1/EA2/EA222.htm", "4.png", "", "", "{8C5B797E-5085-CE5A-8980-BA51361A1A74}", "Package");

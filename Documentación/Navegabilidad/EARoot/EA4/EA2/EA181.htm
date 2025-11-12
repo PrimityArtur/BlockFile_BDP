@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>ModeloFisico::DETALLES_PRODUCTO</title>
+<title>ModeloFisico::COMENTARIO_PRODUCTO</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
 <script>
@@ -90,12 +90,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> ModeloFisico::DETALLES_PRODUCTO </h1>
+			<h1> ModeloFisico::COMENTARIO_PRODUCTO </h1>
 			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
 			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../index.htm">Model</a> / <a href="../EA123.htm">Modelo_de_Datos</a> / <a href="EA173.htm">ModeloFisico</a> / <a href="EA181.htm">DETALLES_PRODUCTO</a></p>
+			<p><a href="../../../index.htm">Model</a> / <a href="../EA123.htm">Modelo_de_Datos</a> / <a href="EA175.htm">ModeloFisico</a> / <a href="EA181.htm">COMENTARIO_PRODUCTO</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -110,16 +110,16 @@
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Project: </div>
 						<ul>
-<a href="EA173.htm">ModeloFisico</a></ul>
+<a href="EA175.htm">ModeloFisico</a></ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">DETALLES_PRODUCTO  : Public  &lt;&lt;table&gt;&gt; Table</span>
+	<span class="ObjectTitle">COMENTARIO_PRODUCTO  : Public  &lt;&lt;table&gt;&gt; Table</span>
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">21/09/2025 3:08:46</td>
+			<td width="85%" class="ObjectDetailsValue">21/09/2025 3:08:45</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
@@ -168,11 +168,11 @@
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{FCA4F241-0E96-44d7-9392-7CED33F94AAD}</td>
+			<td class="ObjectDetailsValue">{96C793D6-60B7-4343-98E0-A6632B565409}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA171.htm">MF-001 - ModeloFisico</a></td>
+			<td class="ObjectDetailsValue"><a href="EA173.htm">MF-001 - ModeloFisico</a></td>
 		</tr>
 	</table>
 	
@@ -192,7 +192,58 @@
 		</tr>
 						<tr>
 				<td width="50%" class="TableRow">
-					<a name="{D91D501B-3562-4ed7-94C4-F025E82A276D}"></a>id_producto
+					<a name="{ADB7DE21-B81D-4424-949B-914FFE424B8B}"></a>id_comentario_producto
+				</td>
+				<td width="25%" class="TableRow">
+					Public 
+				</td>
+				<td width="25%" class="TableRow">
+					bigint
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="3">
+					AutoNum=True<br>property=AutoNum=True;<br>
+						&nbsp;
+						
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow">
+					<a name="{1FDA1431-6AD8-4be0-ACEA-3E8AE51AD0A0}"></a>descripcion
+				</td>
+				<td width="25%" class="TableRow">
+					Public 
+				</td>
+				<td width="25%" class="TableRow">
+					text
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="3">
+					
+						&nbsp;
+						
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow">
+					<a name="{25F558AD-94B6-4083-8570-253127690677}"></a>fecha
+				</td>
+				<td width="25%" class="TableRow">
+					Public 
+				</td>
+				<td width="25%" class="TableRow">
+					timestamp(0)
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="3">
+					
+						&nbsp;
+						
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow">
+					<a name="{3815303B-059D-4d9f-A7C6-101227893200}"></a>id_producto
 				</td>
 				<td width="25%" class="TableRow">
 					Public 
@@ -209,47 +260,13 @@
 				</td>
 			</tr>			<tr>
 				<td width="50%" class="TableRow">
-					<a name="{356CFF83-040A-42ba-AF2F-68DF4AF386D4}"></a>precio
+					<a name="{4690FF80-F384-49ac-9107-D780F88CB8DC}"></a>id_usuario
 				</td>
 				<td width="25%" class="TableRow">
 					Public 
 				</td>
 				<td width="25%" class="TableRow">
-					decimal(12,2)
-				</td>
-			</tr>
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="3">
-					
-						&nbsp;
-						
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow">
-					<a name="{C96543E4-E918-47c4-AB9F-E87041791E7F}"></a>version
-				</td>
-				<td width="25%" class="TableRow">
-					Public 
-				</td>
-				<td width="25%" class="TableRow">
-					varchar(50)
-				</td>
-			</tr>
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="3">
-					
-						&nbsp;
-						
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow">
-					<a name="{295D481A-BE12-4968-B125-7BF886A2D01F}"></a>descripcion
-				</td>
-				<td width="25%" class="TableRow">
-					Public 
-				</td>
-				<td width="25%" class="TableRow">
-					text
+					bigint
 				</td>
 			</tr>
 			<tr>
@@ -269,14 +286,14 @@
 						<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<a name="{EB3E93F9-A6CE-4f72-A6E4-9BE59886DF18}"></a><strong>FK_ID_PRODUCTO</strong> (id_producto: bigint, 
+					<a name="{BECBB92C-10A7-4575-8753-39C5E6072FB6}"></a><strong>FK_ID_CLIENTE</strong> (id_usuario: bigint, 
 ) : 
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">
 					<div class="DetailsDivParent">Details:</BR>
-						<div id="detailsDIVOperations469" class="DetailsDiv" >
+						<div id="detailsDIVOperations490" class="DetailsDiv" >
 					
 						</div>
 <div style="text-align: right">[ Is static False. Is abstract False. Is return array False. Is query False. Is synchronized False. ]</div>
@@ -286,14 +303,14 @@
 			<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<a name="{79843C4A-E877-4ed6-A0DB-E95B806D832E}"></a><strong>PK_DETALLES_PRODUCTO</strong> (id_producto: bigint, 
+					<a name="{54DFF6F1-7309-43d7-AD1B-65E56ACEF9A1}"></a><strong>PK_COMENTARIO_PRODUCTO</strong> (id_comentario_producto: bigint, 
 ) : 
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">
 					<div class="DetailsDivParent">Details:</BR>
-						<div id="detailsDIVOperations470" class="DetailsDiv" >
+						<div id="detailsDIVOperations491" class="DetailsDiv" >
 					
 						</div>
 <div style="text-align: right">[ Is static False. Is abstract False. Is return array False. Is query False. Is synchronized False. ]</div>
@@ -303,13 +320,14 @@
 			<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<a name="{DEB775EB-FA88-4cc3-986B-CAEDB80E84A2}"></a><strong>CHECK_PRECIO</strong> () : 
+					<a name="{9FDF5441-2B04-445a-957B-F4983E217605}"></a><strong>FK_ID_PRODUCTO</strong> (id_producto: bigint, 
+) : 
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">
 					<div class="DetailsDivParent">Details:</BR>
-						<div id="detailsDIVOperations471" class="DetailsDiv" >
+						<div id="detailsDIVOperations492" class="DetailsDiv" >
 					
 						</div>
 <div style="text-align: right">[ Is static False. Is abstract False. Is return array False. Is query False. Is synchronized False. ]</div>
@@ -327,7 +345,30 @@
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA183.htm">«table» PRODUCTO</a><br />
+						<a href="EA180.htm">«table» CLIENTE</a><br />
+						Table «FK» 
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> FK_ID_CLIENTE<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> PK_CLIENTE<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink493" /></button>Details:
+							<div id="detailsDIVLink493" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA185.htm">«table» PRODUCTO</a><br />
 						Table «FK» 
 					</td>
 					<td width="30%" class="TableRow" valign="top">
@@ -341,8 +382,8 @@
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink472" /></button>Details:
-							<div id="detailsDIVLink472" class="DetailsDiv" >
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink494" /></button>Details:
+							<div id="detailsDIVLink494" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>

@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>WFM-007 CatalogoProductos</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+		
+		document.addEventListener('DOMContentLoaded', () => {
+			const img = document.querySelector('.diagram_image img');
+			const mapAreas = document.querySelectorAll('area');
+
+			if (img && mapAreas.length > 0) {
+				//Get original and rendered image dimensions
+				const originalWidth = img.naturalWidth;
+				const originalHeight = img.naturalHeight;
+				const renderedWidth = img.clientWidth || originalWidth; 
+				const renderedHeight = img.clientHeight || originalHeight; 
+				
+				//Calculate scaling factors
+				const scaleX = renderedWidth / originalWidth;
+				const scaleY = renderedHeight / originalHeight;
+
+				//Adjust map area coordinates
+				mapAreas.forEach((area) => {
+				  const originalCoords = area.getAttribute('coords').split(',').map(Number);
+				  const scaledCoords = originalCoords.map((coord, index) =>
+					index % 2 === 0 ? coord * scaleX : coord * scaleY
+				  );
+				  area.setAttribute('coords', scaledCoords.join(','));
+				});
+			}
+		});
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> WFM-007 CatalogoProductos </h1>
+			<!-- <img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Model</a> / <a href="../../../EA187.htm">Movil</a> / <a href="../../EA191.htm">Wireframes_Movil</a> / <a href="../EA365.htm">Cliente</a> / <a href="EA382.htm">WFM-007 CatalogoProductos</a> / <a href="EA380.htm">WFM-007 CatalogoProductos</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../images/188.png" alt="Diagram"/> <a href="EA380.htm">WFM-007 CatalogoProductos</a></li>
+<li><img src="../../../../../images/11.png" alt="Screen"/> <a href="EA383.htm">AndroidPhone1</a></li>
+<li><img src="../../../../../images/16.png" alt="GUIElement"/> <a href="EA384.htm">Buscar Por</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA381.png" usemap="#EA381" width="593" height="504" border="0" />
+
+<MAP NAME="EA381">
+<area shape="rect" coords="36,1293,366,1425" href="../../../../EA6/EA1/EA555.htm" target="_self">
+<area shape="rect" coords="36,909,366,1164" href="../../../../EA6/EA1/EA555.htm" target="_self">
+<area shape="rect" coords="36,567,366,783" href="../../../../EA6/EA1/EA557.htm" target="_self">
+<area shape="rect" coords="36,267,366,405" href="../../../../EA6/EA1/EA557.htm" target="_self">
+<area shape="rect" coords="36,30,366,168" href="../../../../EA6/EA1/EA555.htm" target="_self">
+<area shape="rect" coords="1128,669,1176,1059" href="EA393.htm" target="_self">
+<area shape="rect" coords="915,1005,1050,1044" href="EA399.htm" target="_self">
+<area shape="rect" coords="945,828,1038,867" href="EA402.htm" target="_self">
+<area shape="rect" coords="738,1011,897,1038" href="EA403.htm" target="_self">
+<area shape="rect" coords="738,948,1008,987" href="EA400.htm" target="_self">
+<area shape="rect" coords="738,900,1008,978" href="EA401.htm" target="_self">
+<area shape="rect" coords="759,696,1029,876" href="EA404.htm" target="_self">
+<area shape="rect" coords="693,669,1086,1059" href="EA372.htm" target="_self">
+<area shape="rect" coords="1542,648,1728,690" href="EA397.htm" target="_self">
+<area shape="rect" coords="1554,585,1713,627" href="EA396.htm" target="_self">
+<area shape="rect" coords="1554,528,1713,570" href="EA395.htm" target="_self">
+<area shape="rect" coords="1554,471,1713,513" href="EA398.htm" target="_self">
+<area shape="rect" coords="1368,399,1749,723" href="EA384.htm" target="_self">
+<area shape="rect" coords="576,573,846,633" href="EA388.htm" target="_self">
+<area shape="rect" coords="600,1095,1176,1164" href="EA390.htm" target="_self">
+<area shape="rect" coords="576,477,924,555" href="EA394.htm" target="_self">
+<area shape="rect" coords="873,372,1017,432" href="EA378.htm" target="_self">
+<area shape="rect" coords="1023,372,1167,432" href="EA370.htm" target="_self">
+<area shape="rect" coords="723,372,867,432" href="EA374.htm" target="_self">
+<area shape="rect" coords="594,372,705,432" href="EA376.htm" target="_self">
+<area shape="rect" coords="747,258,1029,336" href="EA385.htm" target="_self">
+<area shape="rect" coords="528,30,1251,1404" href="EA383.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">WFM-007 CatalogoProductos : Android Wireframe diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">10/11/2025 0:00:02</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">10/11/2025 14:01:56</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Usuario</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{D14094AA-11ED-43bf-8EC1-5D7A962AD45A}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.5.1.2.1", "1", "WFM-003 PerfilAdministrador", "EARoot/EA5/EA1/EA2/EA1/EA252.htm", "4.png", "", "", "{AA9AA3A6-7E3B-F9B7-901C-589E86762D4A}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1.2.2", "1", "WFM-004 GestionProductos", "EARoot/EA5/EA1/EA2/EA2/EA270.htm", "4.png", "", "", "{A5C749BF-8321-5A49-BF4D-42752CFD92EF}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1.2.3", "1", "WFM-005 GestionCategorias", "EARoot/EA5/EA1/EA2/EA3/EA308.htm", "4.png", "", "", "{B10BDA76-12E9-3EAD-AE5E-81B6A888A833}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1.2.4", "1", "WFM-006 GestionUsuarios", "EARoot/EA5/EA1/EA2/EA4/EA339.htm", "4.png", "", "", "{B1E8AFB6-B288-A39E-B839-12DF69E36384}", "Package");

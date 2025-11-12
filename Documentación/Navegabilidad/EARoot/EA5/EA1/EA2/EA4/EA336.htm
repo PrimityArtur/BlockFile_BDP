@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>WFM-006 GestionUsuarios</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+		
+		document.addEventListener('DOMContentLoaded', () => {
+			const img = document.querySelector('.diagram_image img');
+			const mapAreas = document.querySelectorAll('area');
+
+			if (img && mapAreas.length > 0) {
+				//Get original and rendered image dimensions
+				const originalWidth = img.naturalWidth;
+				const originalHeight = img.naturalHeight;
+				const renderedWidth = img.clientWidth || originalWidth; 
+				const renderedHeight = img.clientHeight || originalHeight; 
+				
+				//Calculate scaling factors
+				const scaleX = renderedWidth / originalWidth;
+				const scaleY = renderedHeight / originalHeight;
+
+				//Adjust map area coordinates
+				mapAreas.forEach((area) => {
+				  const originalCoords = area.getAttribute('coords').split(',').map(Number);
+				  const scaledCoords = originalCoords.map((coord, index) =>
+					index % 2 === 0 ? coord * scaleX : coord * scaleY
+				  );
+				  area.setAttribute('coords', scaledCoords.join(','));
+				});
+			}
+		});
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> WFM-006 GestionUsuarios </h1>
+			<!-- <img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Model</a> / <a href="../../../EA187.htm">Movil</a> / <a href="../../EA191.htm">Wireframes_Movil</a> / <a href="../EA232.htm">Administrador</a> / <a href="EA338.htm">WFM-006 GestionUsuarios</a> / <a href="EA336.htm">WFM-006 GestionUsuarios</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../images/188.png" alt="Diagram"/> <a href="EA336.htm">WFM-006 GestionUsuarios</a></li>
+<li><img src="../../../../../images/11.png" alt="Screen"/> <a href="EA339.htm">AndroidPhone1</a></li>
+<li><img src="../../../../../images/16.png" alt="GUIElement"/> <a href="EA340.htm">Buscar Por</a></li>
+<li><img src="../../../../../images/16.png" alt="GUIElement"/> <a href="EA341.htm">ClientArea3</a></li>
+<li><img src="../../../../../images/16.png" alt="GUIElement"/> <a href="EA342.htm">Saldo</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA337.png" usemap="#EA337" width="712" height="478" border="0" />
+
+<MAP NAME="EA337">
+<area shape="rect" coords="36,1092,366,1224" href="../../../../EA6/EA1/EA555.htm" target="_self">
+<area shape="rect" coords="36,717,366,855" href="../../../../EA6/EA1/EA565.htm" target="_self">
+<area shape="rect" coords="36,402,366,540" href="../../../../EA6/EA1/EA565.htm" target="_self">
+<area shape="rect" coords="36,42,366,258" href="../../../../EA6/EA1/EA565.htm" target="_self">
+<area shape="rect" coords="1722,438,1881,480" href="EA342.htm" target="_self">
+<area shape="rect" coords="1491,1122,1761,1161" href="EA360.htm" target="_self">
+<area shape="rect" coords="1491,1044,1761,1083" href="EA363.htm" target="_self">
+<area shape="rect" coords="1491,1182,1761,1242" href="EA364.htm" target="_self">
+<area shape="rect" coords="1491,924,1761,963" href="EA362.htm" target="_self">
+<area shape="rect" coords="1491,978,1761,1017" href="EA361.htm" target="_self">
+<area shape="rect" coords="1809,1275,2079,1335" href="EA359.htm" target="_self">
+<area shape="rect" coords="1476,1275,1746,1335" href="EA358.htm" target="_self">
+<area shape="rect" coords="1437,870,2106,1362" href="EA341.htm" target="_self">
+<area shape="rect" coords="1041,738,1074,774" href="EA343.htm" target="_self">
+<area shape="rect" coords="1653,441,1923,480" href="EA353.htm" target="_self">
+<area shape="rect" coords="1536,438,1695,480" href="EA357.htm" target="_self">
+<area shape="rect" coords="1710,498,1896,540" href="EA354.htm" target="_self">
+<area shape="rect" coords="1722,381,1881,423" href="EA356.htm" target="_self">
+<area shape="rect" coords="1722,327,1881,369" href="EA355.htm" target="_self">
+<area shape="rect" coords="1419,258,1929,561" href="EA340.htm" target="_self">
+<area shape="rect" coords="534,582,804,642" href="EA345.htm" target="_self">
+<area shape="rect" coords="534,996,1110,1065" href="EA348.htm" target="_self">
+<area shape="rect" coords="540,687,1113,960" href="EA350.htm" target="_self">
+<area shape="rect" coords="513,477,861,555" href="EA352.htm" target="_self">
+<area shape="rect" coords="810,372,954,432" href="EA334.htm" target="_self">
+<area shape="rect" coords="960,372,1104,432" href="EA328.htm" target="_self">
+<area shape="rect" coords="660,372,804,432" href="EA330.htm" target="_self">
+<area shape="rect" coords="531,372,642,432" href="EA332.htm" target="_self">
+<area shape="rect" coords="684,258,966,336" href="EA344.htm" target="_self">
+<area shape="rect" coords="465,30,1188,1404" href="EA339.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">WFM-006 GestionUsuarios : Android Wireframe diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">09/11/2025 23:57:37</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">10/11/2025 14:00:58</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Usuario</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{A0D44BE8-65D1-4ddd-84C2-58D0533AAE07}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

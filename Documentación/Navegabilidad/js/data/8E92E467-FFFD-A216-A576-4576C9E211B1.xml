@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.5.2.3.1", "1", "DSM-006 CatalogoProductos", "EARoot/EA5/EA2/EA3/EA1/EA611.htm", "4.png", "", "", "{B611590E-588E-9B31-B247-B4953E79955C}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2.3.2", "1", "DSM-007 PerfilCliente", "EARoot/EA5/EA2/EA3/EA2/EA617.htm", "4.png", "", "", "{9C0E9C46-5C1E-539C-A00F-C68280A7367F}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2.3.3", "1", "DSM-008 Rankings", "EARoot/EA5/EA2/EA3/EA3/EA624.htm", "4.png", "", "", "{A543C676-960A-2331-8BC4-66375BF648A4}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2.3.4", "1", "DSM-009 VistaProducto", "EARoot/EA5/EA2/EA3/EA4/EA631.htm", "4.png", "", "", "{83E2A09A-09A3-CEAB-966D-7BA76263635C}", "Package");

@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.5.2.2.1", "1", "DSM-002 PerfilAdministrador", "EARoot/EA5/EA2/EA2/EA1/EA576.htm", "4.png", "", "", "{823A642E-E116-4E25-9F8E-AC1CF2586F1D}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2.2.2", "1", "DSM-003 GestionProductos", "EARoot/EA5/EA2/EA2/EA2/EA582.htm", "4.png", "", "", "{8B0E5FE4-30A0-0E36-8A66-A4B7E06D6228}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2.2.3", "1", "DSM-004 GestionCategorias", "EARoot/EA5/EA2/EA2/EA3/EA590.htm", "4.png", "", "", "{9C89603F-511A-0E73-BDF9-4C5D7B681A1F}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2.2.4", "1", "DSM-005 GestionUsuarios", "EARoot/EA5/EA2/EA2/EA4/EA598.htm", "4.png", "", "", "{B528E31C-31F6-56A6-9EB8-DE6D42F8EA8C}", "Package");

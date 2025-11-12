@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.5.1.3.1", "1", "WFM-007 CatalogoProductos", "EARoot/EA5/EA1/EA3/EA1/EA383.htm", "4.png", "", "", "{BF821A64-AF39-FD9D-84D3-5E4E73F25DBE}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1.3.2", "1", "WFM-008 PerfilCliente", "EARoot/EA5/EA1/EA3/EA2/EA420.htm", "4.png", "", "", "{819618C3-B04C-9D6E-B5DC-983A3B9CB62C}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1.3.3", "1", "WFM-009 Rankings", "EARoot/EA5/EA1/EA3/EA3/EA464.htm", "4.png", "", "", "{AAD84D38-0874-358F-B9DD-3067D7DCBF00}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1.3.4", "1", "WFM-010 VistaProducto", "EARoot/EA5/EA1/EA3/EA4/EA498.htm", "4.png", "", "", "{BCEA043A-A4FE-595A-B2EC-F97409C3A9CC}", "Package");
